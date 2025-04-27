@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    border-radius: 15px;
+    background: #ffffff;
+    border: none;
+  }
+  
+  .navbar {
+    padding: 15px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2653d4;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e74a3b;
+    border-color: #e74a3b;
+  }
+  
+  .hero-section {
+    background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+    min-height: 50vh;
+    padding: 40px 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .hero-section .lead {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+  
